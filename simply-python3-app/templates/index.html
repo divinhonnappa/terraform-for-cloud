@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>{% block title %}Terraform Demo{% endblock %}</title>
+    <style>
+        header {
+          background-color: #4B0082;
+          padding: 5px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+        }
+        footer {
+          background-color: #4B0082;
+          padding-bottom: 5px;
+          text-align: center;
+          color: white;
+        }
+        p {
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <h2>Hashicorp Terraform Provisioning Cloud Infrastructure on <span style="color:#{{color}}">{{cloud}}</span></h2>
+</header>
+    <div>   <img src="https://i.pinimg.com/originals/c5/fb/84/c5fb848a1412c91dcafa392ac82475ef.png" style="width:20%">
+            <div style="display:flex;justify-content:center;align-items:center;padding-top: 10px;">
+              <h1>HASHICORP TERRAFORM DEMO </h1>
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+                <img src=./../static/{{cloud}}.png alt="Terraform on Cloud" style="width:44%">
+            </div>
+            <div style="display:flex;justify-content:center;align-items:center;">
+              <h2>Creating infrastructure on <span style="color:#{{color}}">{{cloud}}</span> cloud platform</h2>
+            </div>
+            <br><br><br><br><br>
+    </div>
+<footer>
+  <h2>Hashicorp Terraform Provisioning Cloud Infrastructure on <span style="color:#{{color}}">{{cloud}}</span></h2>
+</footer>
+</body>
+</html>
