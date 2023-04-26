@@ -1,6 +1,6 @@
 ## Terraform-on-cloud-basic-starter
-Simple terraform starter kit to get started with terraform on AWS, Azure and GCP
-This can be done on Azure and Google cloud for free using the credits provided on both of these platforms.
+Terraform starter kit to get started on any or all 3 major cloud providers AWS, Azure and GCP
+In terms of cost, this can be done on Azure and Google cloud for free using the credits provided on both of these platforms.
 There will be a very small charge on AWS if testing multiple times
 
 
